@@ -4,16 +4,136 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
+
+.fa-lightbulb-o{
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  font-size: 45px !important;
+  fill: #2673dd;
+  opacity: .2;
+  transform: rotate(340deg);
+}
+.panel-heading .panel-title{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+   font-weight: 600!important;
+}
+
+#panel-guide .panel-info{
+  border-radius: 4px 4px 0 0 !important;
+  position: relative;
+}
+
+.panel-heading {
+  padding: 22px 24px;
+    background: #e5eefb;
+    border-radius: 4px 4px 0 0 !important;
+    -webkit-box-shadow: inset 0 4px 0 #2673dd;
+    box-shadow: inset 0 4px 0 #2673dd;
+    
+}
+
+.post-note{
+  position: fixed;
+  top: 350px;
+ right: 1px;
+ max-width: 340px;
+display: none;
+  z-index: 100;
+}
+.header-right .btn-default{
+  border: 1px solid rgb(153, 150, 150);
+ 
+}
+.header-right .btn-warning, .header-right .btn-default{
+  text-transform: initial;
+}
+.sticky-fooder{
+  position: fixed;
+  bottom: 0;
+  left:2em;
+  margin-top: 2em;
+  padding: 1em;
+  z-index: 100;
+  width: 1157px;
+}
+.mb-5{
+margin-bottom: 5rem !important;
+}
+.mb-5em{
+  margin-bottom: 5em !important;
+  }
+
+input[type="file"] {
+  display: none;
+  background-color: #363838;
+  
+}
+#page-wrapper .form-three .input-sm{
+  padding: 7px 8px;
+    height: 35px;
+    font-size: 16px;
+}
+.icon-add-image{
+  font-size: 24px !important;
+  color: #1791f2;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
+.lable-add-image{
+  width: 160px;
+  float: left;
+  margin-top: 15px;}
+.name-add-image{
+  font-size: 17px !important;
+  color: #1791f2;
+  position:absolute;
+  left:50%;
+  top:120%;
+  transform:translate(-50%,-50%);
+  width: 70px;
+}
+.custom-file-upload {
+  border: 1px dashed #1791f2;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  width: 90px;
+  height: 90px;
+  position:relative;
+  margin-right: 20px;
+}
+.custom-file-upload:hover{
+  background-color: #f1f1f1;
+}
+
+.items{
+  display: inline-block;
+  padding-left: 0;
+  margin: 25px 0 0 10px ;
+  border-radius: 4px;
+}
+.icon_del{
+  font-size: 21px !important;
+  margin-left: 10px;
+  color: #777;
+}
+
+/*edit*/  
 h4, h5, h6,
 h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 
 html, body{
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
     font-size: 100%;
   	overflow-x: hidden;
-	background: #fff;
+	background: #f6f6f6;
 }
 body a{
 	transition: 0.5s all ease;
@@ -71,6 +191,7 @@ span.dashboard_text {
     width: 100%;
     z-index: 100;
 }
+
 .header-section {
     background:#FFF;
     box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.21);
@@ -152,6 +273,7 @@ button#showLeftPush:hover {
 }
 .cbp-spmenu-push.cbp-spmenu-push-toright div#page-wrapper {
     margin: 0;
+    
 }
 /*--//push-menu-css--*/
 /*--side-menu--*/
@@ -947,6 +1069,7 @@ ul.dropdown-menu.drp-mnu li {
 	padding: 1.54em 1em;
 	background-color: rgba(79, 82, 186, 0.88);
 }
+
 .stats-left h5 {
     color: #fff;
     font-size: 1em;
@@ -1451,6 +1574,8 @@ section#tables  p {
 }
 /*--//table--*/
 /*--forms--*/
+
+
 .forms h4 {
     font-size: 1.3em;
     color: #6F6F6F;
@@ -6318,13 +6443,7 @@ text.highcharts-yaxis-title {
   font-size: 14px;
   font-weight: 600;
 }
-.panel .panel-heading .panel-title {
-  font-size: 14px;
-  float: left;
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-}
+
 h4.asd label {
     font-size: 1em;
     padding-left: 1em;
